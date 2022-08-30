@@ -21,6 +21,10 @@
 
 }
 
+.header_site{
+    padding:10px 0;
+}
+
 .logo {
     height: 50px;
     vertical-align: middle;
@@ -48,6 +52,7 @@ main {
     padding: 25px;
     border-color: #CCD2D6;
     border-bottom: 2px solid;
+    padding-left: 50px;
 }
 
 .task {
@@ -70,6 +75,7 @@ main {
 .elenco{
     padding-top: 40px;
     vertical-align: middle;
+    padding-left: 50px;
 }
 
 .frecciagiu {
