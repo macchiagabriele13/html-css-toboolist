@@ -1,0 +1,19 @@
+*{
+    font-family: 'Arial',  sans-serif;;
+}
+
+:root{
+    --col-button: #47ADF1;
+    --col-button-noselect: #CCD2D6;
+    --col-title: #484C55;
+    --col-body: #444851;
+    --col-ok: #7CCAB7;
+    --col-no: #EF7C77;
+    --col-edit1: #45ABEA;
+    --col-edit2: #9C72E4;
+    --col-edit3: #64C0A9;
+    --col-edit4: #F29E33;
+    --col-edit5: #D863A1;
+    --col-edit6: #B0C926;
+
+}
