@@ -17,3 +17,15 @@
     --col-edit6: #B0C926;
 
 }
+
+.logo{
+    height: 50px;
+    vertical-align: middle;
+}
+
+.titolo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    vertical-align: middle;
+    }
