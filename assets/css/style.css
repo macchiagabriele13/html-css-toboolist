@@ -109,12 +109,33 @@ main {
         direction: ltr;
         -webkit-font-smoothing: antialiased;
     }
-  }
+  
+
+    .cancel{
+        color: var(--col-no);
+        vertical-align: middle;
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
+    
+    }
+
+.riga_elemento{
+    padding:10px 0;
+}
 
   .elemento{
     font-size: 16px;
     font-weight: 500;
-    color: var(--col-button-noselect);
+    color: var(--col-body);
     vertical-align: middle;
   }
 
