@@ -1,8 +1,9 @@
-*{
-    font-family: 'Arial',  sans-serif;;
+* {
+    font-family: 'Arial', sans-serif;
+    ;
 }
 
-:root{
+:root {
     --col-button: #47ADF1;
     --col-button-noselect: #CCD2D6;
     --col-title: #484C55;
@@ -15,17 +16,138 @@
     --col-edit4: #F29E33;
     --col-edit5: #D863A1;
     --col-edit6: #B0C926;
+    --col-backpad: #F6F8F9;
+
 
 }
 
-.logo{
+.logo {
     height: 50px;
     vertical-align: middle;
 }
 
-.titolo{
+.titolo {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;
     font-weight: 700;
     vertical-align: middle;
+}
+
+main {
+    background-color: var(--col-backpad);
+}
+
+.area_bianca {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+
+}
+
+.task_section {
+    padding: 25px;
+    border-color: #CCD2D6;
+    border-bottom: 2px solid;
+}
+
+.task {
+    background-color: var(--col-button);
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.section {
+    background-color: white;
+    color: var(--col-button-noselect);
+    border: 1px solid;
+    border-color: #CCD2D6;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+
+.elenco{
+    padding-top: 40px;
+    vertical-align: middle;
+}
+
+.frecciagiu {
+    font-family: 'Material Symbols Outlined';
+    font-weight: normal;
+    font-style: normal;
+    color: var(--col-body);
+    font-size: 30px;
+    vertical-align: middle;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+
+.titolo_elenco{
+    color: var(--col-body);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.check{
+        color: var(--col-ok);
+        font-family: 'Material Symbols Outlined';
+        font-weight: normal;
+        font-style: normal;
+        font-size: 18px;
+        vertical-align: middle;
+        letter-spacing: normal;
+        text-transform: none;
+        display: inline-block;
+        white-space: nowrap;
+        word-wrap: normal;
+        direction: ltr;
+        -webkit-font-smoothing: antialiased;
     }
+  }
+
+  .elemento{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--col-button-noselect);
+    vertical-align: middle;
+  }
+
+  
+
+#botton_tags {
+    color: white;
+    font-size: 8px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 15px;
+    vertical-align: middle;
+  }
+
+  .blue{
+    background-color: var(--col-edit1);
+  }
+
+  .viola{
+    background-color: var(--col-edit2);
+  }
+
+  .verde{
+    background-color: var(--col-edit3);}
+
+.arancio{
+    background-color: var(--col-edit4);
+}
+.rosa{
+    background-color: var(--col-edit5);
+}
+.acido{
+    background-color: var(--col-edit6);
+}
+
+
