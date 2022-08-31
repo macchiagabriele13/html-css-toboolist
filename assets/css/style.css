@@ -1,7 +1,9 @@
 * {
     font-family: 'Arial', sans-serif;
-    ;
-}
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    }
 
 :root {
     --col-button: #47ADF1;
@@ -23,10 +25,10 @@
 
 .header_site{
     padding:10px 0;
-}
+    }
 
 .logo {
-    height: 50px;
+    ;
     vertical-align: middle;
 }
 
@@ -41,10 +43,14 @@ main {
     background-color: var(--col-backpad);
 }
 
-.area_bianca {
-    width: 70%;
-    margin: auto;
+.container{
     background-color: white;
+    margin: 2rem auto;
+    width: 80%;
+}
+
+.area_bianca {
+    
 
 }
 
